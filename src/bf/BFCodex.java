@@ -31,7 +31,7 @@ public class BFCodex
 				vCount++;
 			}
 		}
-		String vResult = "";	
+		String vResult = "BFCode for \"" + pText + "\" message : \n";	
 		int vHalfMin = vMin / 2;
 		int vValue = vMax / vHalfMin;
 		int vReste = vMax % vHalfMin;
