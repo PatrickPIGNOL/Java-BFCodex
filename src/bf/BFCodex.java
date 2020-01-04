@@ -1,4 +1,4 @@
-package classes;
+package bf;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
@@ -6,7 +6,7 @@ import java.util.Map;
 
 import maths.Maths;
 
-public class TextToBF 
+public class BFCodex 
 {
 	public static String mTextToBF(String pText)
 	{
@@ -96,5 +96,9 @@ public class TextToBF
 		return vResult;		
 	}
 	
-	
+	public static String BFToText(String pBF)
+	{
+		String vResult = "";
+		return vResult;
+	}
 }

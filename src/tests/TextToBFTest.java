@@ -4,7 +4,7 @@ import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
-import classes.TextToBF;
+import bf.BFCodex;
 import junit.framework.TestCase;
 
 public class TextToBFTest extends TestCase
@@ -23,6 +23,6 @@ public class TextToBFTest extends TestCase
 	public void test() 
 	{
 		String vResult = "++++++++++++++++[>++++>++++++>++++++>++++++>++>+++++>+++++++>++++++>++<<<<<<<<<-]>++++++++>+++++>++++++++++++>+++++++++++++++>>+++++++>++>++++>+<<<<<<<<.>.>..>.>.>.<<.>>>.<<<<.>>>>>.<<<.>>>>.";
-		assertEquals(vResult, TextToBF.mTextToBF("Hello World !"));
+		assertEquals(vResult, BFCodex.mTextToBF("Hello World !"));
 	}
 }
