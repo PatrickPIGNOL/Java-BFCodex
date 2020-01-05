@@ -7,7 +7,6 @@ public class Main
 {
 	public static void main(String[] pArguments)
 	{
-		//RuntimeTest.mRuntimeTest(BFCodexTestSuite.class);
 		if(pArguments[0].contains("BF"))
 		{
 			System.out.println(BFCodex.mBFToText(pArguments[1]));
